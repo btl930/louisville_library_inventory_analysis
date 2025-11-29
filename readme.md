@@ -1,0 +1,2 @@
+Louisville Metro Library Collection Inventory CSV is too large to upload to Github.
+Link here: https://louisville-metro-opendata-lojic.hub.arcgis.com/datasets/LOJIC::louisville-metro-ky-library-collection-inventory-/explore

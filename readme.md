@@ -1,12 +1,63 @@
 # LFPL Inventory Analysis
 
-This project explores inventory trends for the Louisville Free Public Library. It demonstrates data cleaning, exploratory analysis, and visualization in Python.
+This project explores inventory data for the Louisville Free Public Library. It demonstrates data cleaning, exploratory analysis, and visualization in Python.
 
 ## How to Use
-1. Clone this repository.
-2. Install the required Python packages:  
-   pip install -r requirements.txt
-3. Open `louisville_library_inventory_analysis.ipynb` in Jupyter Notebook.
+### 1. Clone the repository:
+```python 
+
+git clone https://github.com/btl930/louisville_library_inventory_analysis.git
+cd louisville_library_inventory_analysis
+
+```
+### 2. Create and Activate a virtual environment:
+####Windows (Powershell)
+```python
+
+python -m venv venv
+.\venv\Scripts\activate
+
+```
+#####Deactivate
+```python
+
+deactivate
+
+```
+(___)
+####macOS/Linux
+```python
+
+python3 -m venv venv
+source venv/bin/activate
+
+```
+#####Deactivate
+```python
+
+deactivate
+
+```
+(___)
+###Install Dependencies:  
+```python
+
+pip install -r requirements.txt
+
+```
+(___)
+###Run the Project
+```python
+
+jupyter lab
+
+```
+or
+```python
+
+jupyter notebook
+
+```
 
 ## Example Output
 The analysis shows .

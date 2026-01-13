@@ -24,7 +24,9 @@ python -m venv venv
 deactivate
 
 ```
-(___)
+
+___
+
 #### macOS/Linux
 ```python
 
@@ -38,14 +40,18 @@ source venv/bin/activate
 deactivate
 
 ```
-(___)
+
+___
+
 ### Install Dependencies:  
 ```python
 
 pip install -r requirements.txt
 
 ```
-(_ _ _)
+
+___
+
 ### Run the Project
 ```python
 

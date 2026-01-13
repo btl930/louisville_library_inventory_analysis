@@ -11,42 +11,42 @@ cd louisville_library_inventory_analysis
 
 ```
 ### 2. Create and Activate a virtual environment:
-####Windows (Powershell)
+#### Windows (Powershell)
 ```python
 
 python -m venv venv
 .\venv\Scripts\activate
 
 ```
-#####Deactivate
+##### Deactivate
 ```python
 
 deactivate
 
 ```
 (___)
-####macOS/Linux
+#### macOS/Linux
 ```python
 
 python3 -m venv venv
 source venv/bin/activate
 
 ```
-#####Deactivate
+##### Deactivate
 ```python
 
 deactivate
 
 ```
 (___)
-###Install Dependencies:  
+### Install Dependencies:  
 ```python
 
 pip install -r requirements.txt
 
 ```
-(___)
-###Run the Project
+(_ _ _)
+### Run the Project
 ```python
 
 jupyter lab

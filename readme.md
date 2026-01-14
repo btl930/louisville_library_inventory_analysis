@@ -15,7 +15,7 @@ cd louisville_library_inventory_analysis
 ```python
 
 python -m venv venv
-.\venv\Scripts\activate
+./venv/Scripts/activate
 
 ```
 ##### Deactivate
@@ -69,8 +69,21 @@ jupyter notebook
 The analysis shows .
 
 ## Data Sources
-- [LFPL Inventory:Louisville Metro Library Collection Inventory CSV is too large to upload to Github.] (https://louisville-metro-opendata-lojic.hub.arcgis.com/datasets/LOJIC::louisville-metro-ky-library-collection-inventory-/explore)
-- [Jefferson County border and zip code data: The data to create the pin map comes from the Census data on zip codes. The file is too large to upload to Github.] (https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=ZIP%20Code%20Tabulation%20Areas)
+#### Louisville Free Public Library Inventory Data:
+Author: Louisville Free Public Library
+
+Description: This is a dataframe of LFPL's collection inventory that is updated on a monthly basis. It includes titles, authors, ISBNs, publication years, and price of items in a variety of collections and locations.
+
+Source: https://louisville-metro-opendata-lojic.hub.arcgis.com/datasets/LOJIC::louisville-metro-ky-library-collection-inventory-/explore
+
+___
+
+#### Jefferson County, KY Zip Code Data:
+Author: US Census Bureau, Geography Division
+
+Description: This is a dataframe of the US ZIP Code Tabulation Areas based on the most recent data from 2020.
+
+Source: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=ZIP%20Code%20Tabulation%20Areas
 
 
 ## Author

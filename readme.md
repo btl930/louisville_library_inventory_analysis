@@ -10,7 +10,8 @@ git clone https://github.com/btl930/louisville_library_inventory_analysis.git
 cd louisville_library_inventory_analysis
 
 ```
-### 2. Create and Activate a virtual environment:
+### 2. Download Data Files 
+### 3. Create and Activate a virtual environment:
 #### Windows (Powershell)
 ```python
 
@@ -55,18 +56,15 @@ ___
 ### Run the Project
 ```python
 
-jupyter lab
+jupyter notebook
 
 ```
 or
 ```python
 
-jupyter notebook
+jupyter lab
 
 ```
-
-## Example Output
-The analysis shows .
 
 ## Data Sources
 #### Louisville Free Public Library Inventory Data:

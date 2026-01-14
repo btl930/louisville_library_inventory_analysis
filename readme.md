@@ -3,15 +3,31 @@
 This project explores inventory data for the Louisville Free Public Library. It demonstrates data cleaning, exploratory analysis, and visualization in Python.
 
 ## How to Use
-### 1. Clone the repository:
+### 1. Clone the Repository:
 ```python 
 
 git clone https://github.com/btl930/louisville_library_inventory_analysis.git
 cd louisville_library_inventory_analysis
 
+``` 
+### 2. Handle Large Files:
+This repository uses Git LFS to manage large datasets. When you clone this repository, Git will download pointer files instead of the actual data. To download the real files, run:
+```python
+
+git lfs pull
+
 ```
-### 2. Download Data Files 
-### 3. Create and Activate a virtual environment:
+#### Git LFS setup (if not installed):
+Download and install Git LFS: https://git-lfs.github.com
+&
+run:
+```python
+
+git lfs install
+git lfs pull
+
+```
+### 3. Create and Activate a Virtual Environment:
 #### Windows (Powershell)
 ```python
 

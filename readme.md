@@ -1,8 +1,13 @@
 # LFPL Inventory Analysis
 
-This project explores inventory data for the Louisville Free Public Library. It demonstrates data cleaning, exploratory analysis, and visualization in Python.
+___
+
+This project explores inventory data for the Louisville Free Public Library. It demonstrates data cleaning, exploratory analysis, and visualizations using Python, Pandas, Matplotlib, Seaborn, and Geopandas. The goal of this project is to determine if there are areas underserved by the LFPL or to see if any library branches stand out in regards to a particular service.
 
 ## How to Use
+
+___
+
 ### 1. Clone the Repository:
 ```python 
 
@@ -41,9 +46,6 @@ python -m venv venv
 deactivate
 
 ```
-
-___
-
 #### macOS/Linux
 ```python
 
@@ -57,18 +59,12 @@ source venv/bin/activate
 deactivate
 
 ```
-
-___
-
 ### Install Dependencies:  
 ```python
 
 pip install -r requirements.txt
 
 ```
-
-___
-
 ### Run the Project
 ```python
 
@@ -82,25 +78,50 @@ jupyter lab
 
 ```
 
-## Data Sources
-#### Louisville Free Public Library Inventory Data:
-Author: Louisville Free Public Library
-
-Description: This is a dataframe of LFPL's collection inventory that is updated on a monthly basis. It includes titles, authors, ISBNs, publication years, and price of items in a variety of collections and locations.
-
-Source: https://louisville-metro-opendata-lojic.hub.arcgis.com/datasets/LOJIC::louisville-metro-ky-library-collection-inventory-/explore
+## Objectives
 
 ___
 
+1. How is the collection as a whole distributed across the branches of the library?
+2. When considered with geographic location, which library branch has the largest or smallest collection for their surrounding area? Are some library branches supporting larger geographical areas than others? Are there areas in Louisville that are more in need of a library branch?
+3. How do items in the collection differ (genre, item-type, age-category, etc.) among the branches and in the library as a whole?
+
+## Continuing Questions
+
+___
+
+1. Is there a dataframe with LFPL's circulation data? Is there an API available to get the most current information?
+2. What is the current population data of Louisville? Are there maps showing more populated vs less populated areas that would be helpful in continuing to look into Objective #2?
+
+## Conclusion
+
+___
+
+1. The majority of the collection is housed at the Main Branch, which makes sense as it is the oldest branch, houses the majority of electronic items, and serves a more archival role than the other branches.
+2. 
+
+## Data Sources
+
+___
+
+#### Louisville Free Public Library Inventory Data:
+Source: https://louisville-metro-opendata-lojic.hub.arcgis.com/datasets/LOJIC::louisville-metro-ky-library-collection-inventory-/explore
+
+Description: This is a dataframe of LFPL's collection inventory that is updated on a monthly basis. It includes titles, authors, ISBNs, publication years, and price of items in a variety of collections and locations.
+
+Author: Louisville Free Public Library
+
 #### Jefferson County, KY Zip Code Data:
-Author: US Census Bureau, Geography Division
+Source: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=ZIP%20Code%20Tabulation%20Areas
 
 Description: This is a dataframe of the US ZIP Code Tabulation Areas based on the most recent data from 2020.
 
-Source: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=ZIP%20Code%20Tabulation%20Areas
-
+Author: US Census Bureau, Geography Division
 
 ## Author
+
+___
+
 Brittany Loder – Data Analyst
 
 

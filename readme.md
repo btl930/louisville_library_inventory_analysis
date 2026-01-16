@@ -4,7 +4,7 @@ This project explores inventory data for the Louisville Free Public Library. It 
 
 ## How to Use
 
-### 1. Clone the Repository and Handle File Downloads:
+### 1. Clone the Repository and Handle Large File Downloads:
 #### Git LFS setup (if not installed):
 Download and install Git LFS: https://git-lfs.github.com
 &
@@ -21,13 +21,6 @@ git clone https://github.com/btl930/louisville_library_inventory_analysis.git
 cd louisville_library_inventory_analysis
 
 ``` 
-#### Handle Large Files:
-This repository uses Git LFS to manage large datasets. When you clone this repository, Git will download pointer files instead of the actual data. To download the real files, run:
-```
-
-git lfs pull
-
-```
 ### 2. Create and Activate a Virtual Environment:
 #### Windows (Powershell)
 ```python

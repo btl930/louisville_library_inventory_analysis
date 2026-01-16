@@ -1,12 +1,8 @@
 # LFPL Inventory Analysis
 
-___
-
 This project explores inventory data for the Louisville Free Public Library. It demonstrates data cleaning, exploratory analysis, and visualizations using Python, Pandas, Matplotlib, Seaborn, and Geopandas. The goal of this project is to determine if there are areas underserved by the LFPL or to see if any library branches stand out with regard to a particular service.
 
 ## How to Use
-
-___
 
 ### 1. Clone the Repository and Handle File Downloads:
 #### Git LFS setup (if not installed):
@@ -74,15 +70,11 @@ jupyter lab
 
 ## Objectives
 
-___
-
 1. How is the collection as a whole distributed across the branches of the library?
 2. When considered with geographic location, which library branch has the largest or smallest collection for their surrounding area? Are some library branches supporting larger geographical areas than others? Are there areas in Louisville that are more in need of a library branch?
 3. How do items in the collection differ (genre, age-category, etc.) among the branches and in the library as a whole?
 
 ## Continuing Questions
-
-___
 
 1. Is there a dataframe with LFPL's circulation data? Is there an API available to get the most current information?
 2. What is the current population data of Louisville? Are there maps showing more populated vs less populated areas that would be helpful in continuing to look into Objective #2?
@@ -92,8 +84,6 @@ ___
 
 ## Conclusions
 
-___
-
 1. The majority of the collection is housed at the Main branch, which makes sense as it is the oldest branch, houses the majority of electronic items, and serves a more archival role than the other branches.
 2. The majority of the branches with smaller collections are located on the West side of Louisville; however, there are more library branches centered there. The library branch that likely serves the largest area with the smallest collection is either Fairdale or Middletown. Please note, however, that these findings are based on collection size and geographic proximity and do not account for population density.
 3. The Main, Northeast, and South Central branches have the highest concentration of children's books. The Northeast branch has the highest diversity of genres among those books.
@@ -102,8 +92,6 @@ ___
 6. The adult non-fiction genre has a higher count than fiction.
 
 ## Data Sources
-
-___
 
 #### Louisville Free Public Library Inventory Data:
 Source: https://louisville-metro-opendata-lojic.hub.arcgis.com/datasets/LOJIC::louisville-metro-ky-library-collection-inventory-/explore
@@ -120,8 +108,6 @@ Description: These are shapefiles of the US ZIP Code Tabulation Areas based on t
 Author: US Census Bureau, Geography Division
 
 ## Author
-
-___
 
 Brittany Loder – Data Analyst
 

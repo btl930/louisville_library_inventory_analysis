@@ -49,17 +49,10 @@ pip install -r requirements.txt
 
 ```
 ### 3. Run the Project
-```python
 
-jupyter notebook
-
-```
-or
-```python
-
-jupyter lab
-
-```
+### 4. Rebuild Database
+sqlite3 database.db < schema.sql
+python load_data.py
 
 ## Objectives
 

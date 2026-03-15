@@ -1,5 +1,5 @@
-def name_fix (query, df):
-    query['library_name'] = query['library_name'].replace({
+def name_fix (df1, name1, df2, name2):
+    df1[name1] = df1[name1].replace({
         'BON AIR': 'Bon Air',
         'FAIRDALE': 'Fairdale',
         'IROQUOIS': 'Iroquois',
@@ -21,7 +21,7 @@ def name_fix (query, df):
         'SOUTHWEST REGIONAL': 'Southwest'
     })
 
-    df['LFPL_NAME'] = df['LFPL_NAME'].replace({
+    df2[name2] = df2[name2].replace({
         'BON AIR': 'Bon Air',
         'FAIRDALE': 'Fairdale',
         'IROQUOIS': 'Iroquois',
@@ -43,20 +43,21 @@ def name_fix (query, df):
         'SOUTHWEST REGIONAL': 'Southwest'
     })
 
-def lfpl_map (zipcodes, df, item, title, pe, plt):
+def lfpl_map (zipcodes, df, item, title, pe, plt, png_save):
     ax = zipcodes.plot(
         figsize=(10, 10),
         color='grey',
         edgecolor='grey',
-        alpha=0.5
+        alpha=0.7
     )
 
+    size = ((df[item] - df[item].min()) / (df[item].max() - df[item].min())) * 800 + 50
     df.plot(
         ax=ax,
         column=item,
         cmap='Oranges',
         legend=True,
-        markersize=df[item] / df[item].max() * 300
+        markersize=size
     )
 
     ax.set_title(title, fontsize=12)
@@ -81,5 +82,7 @@ def lfpl_map (zipcodes, df, item, title, pe, plt):
             ]
         )
 
+    plt.savefig(png_save)
     plt.show()
+    
 

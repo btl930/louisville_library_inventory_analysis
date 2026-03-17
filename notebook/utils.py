@@ -1,3 +1,8 @@
+def csv_to_sql (title, path, connection, pd):
+    df = pd.read_csv(path)
+    df.to_sql(title, connection, if_exists='replace', index=False)
+    return df
+
 def name_fix (df1, name1, df2, name2):
     df1[name1] = df1[name1].replace({
         'BON AIR': 'Bon Air',

@@ -1,6 +1,6 @@
-# LFPL Inventory Analysis
+# An Evaluation of the Louisville Free Public Library Inventory Coverage in High-Need Areas
 
-This project explores inventory data for the Louisville Free Public Library. It demonstrates data cleaning, exploratory analysis, and visualizations using Python, Pandas, Matplotlib, Seaborn, and Geopandas. The goal of this project is to determine if there are areas underserved by the LFPL or to see if any library branches stand out with regard to a particular service.
+This project analyzes the distribution of the Louisville Free Public Library inventory as a whole and within its individual branches. The goal is to determine if there are areas underserved in regards to library branch locations or collections; in addition, the evaluation may also highlight library branches that stand out with regard to a particular service. The outcomes may provide insight for the city of Louisville and the library system in determining the allocation of new products or next steps in expanding the branch locations.
 
 ## How to Use
 
@@ -9,50 +9,67 @@ This project explores inventory data for the Louisville Free Public Library. It 
 Download and install Git LFS: https://git-lfs.github.com
 &
 run:
-```
 
+```
 git lfs install
+```
+
+#### Clone the Repository:
+
+``` 
+git clone https://github.com/btl930/louisville_library_inventory_analysis.git
+
+cd louisville_library_inventory_analysis
+``` 
+
+### 2. Create and Activate a Virtual Environment:
+
+#### Windows (Powershell)
 
 ```
-#### Clone the Repository:
-``` 
-
-git clone https://github.com/btl930/louisville_library_inventory_analysis.git
-cd louisville_library_inventory_analysis
-
-``` 
-### 2. Create and Activate a Virtual Environment:
-#### Windows (Powershell)
-```python
-
 python -m venv venv
 ./venv/Scripts/activate
+```
+
+#### macOS/Linux
 
 ```
-#### macOS/Linux
-```python
-
 python3 -m venv venv
 source venv/bin/activate
-
 ```
+
 ##### To Deactivate:
-```python
 
+```
 deactivate
-
 ```
+
 #### Install Dependencies:  
-```python
-
-pip install -r requirements.txt
 
 ```
-### 3. Run the Project
+pip install -r requirements.txt
+```
 
-### 4. Rebuild Database
+### 3. Rebuild Database
+```
 sqlite3 database.db < schema.sql
 python load_data.py
+```
+
+### 4. Run the Project
+
+Run the project on VS Code (make sure Jupyter extension is installed):
+
+```
+code .
+```
+
+or on a Jupyter Notebook:
+
+```
+jupyter notebook
+```
+
 
 ## Objectives
 

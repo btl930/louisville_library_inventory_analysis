@@ -38,7 +38,7 @@ python3 -m venv venv
 source venv/bin/activate
 ```
 
-##### To Deactivate:
+#### To Deactivate:
 
 ```
 deactivate
@@ -73,9 +73,20 @@ jupyter notebook
 
 ## Objectives
 
-1. How is the collection as a whole distributed across the branches of the library?
-2. When considered with geographic location, which library branch has the largest or smallest collection for their surrounding area? Are some library branches supporting larger geographical areas than others? Are there areas in Louisville that are more in need of a library branch?
-3. How do items in the collection differ (genre, age-category, etc.) among the branches and in the library as a whole?
+1. When considering geographic location, how do library branch distributions align with regions in need?
+
+2. How are item types and collections distributed across the library as a whole and within each individual branch? 
+
+## Conclusions
+
+![Choropleth map of OSS Households in Jefferson County, KY]('/../plots/OSSHouseholdsMap.png)
+
+1. The majority of the collection is housed at the Main branch, which makes sense as it is the oldest branch, houses the majority of electronic items, and serves a more archival role than the other branches.
+2. The majority of the branches with smaller collections are located on the West side of Louisville; however, there are more library branches centered there. The library branch that likely serves the largest area with the smallest collection is either Fairdale or Middletown. Please note, however, that these findings are based on collection size and geographic proximity and do not account for population density.
+3. The Main, Northeast, and South Central branches have the highest concentration of children's books. The Northeast branch has the highest diversity of genres among those books.
+4. The South Central, Southwest, Northeast, Shawnee, and Main branches have the highest concentration of teen books with South Central and Southwest having the highest diversity of genres.
+5. The Main branch has the highest concentration of adult books. Within this, the Main branch also has the highest amount of government documents and Kentucky history books showcasing its use as an archive.
+6. The adult non-fiction genre has a higher count than fiction.
 
 ## Continuing Questions
 
@@ -85,30 +96,35 @@ jupyter notebook
 4. How does the LFPL collection compare to another city of comparable size and population?
 5. How does the percentage of ebooks in LFPL compare to other libraries? 
 
-## Conclusions
-
-1. The majority of the collection is housed at the Main branch, which makes sense as it is the oldest branch, houses the majority of electronic items, and serves a more archival role than the other branches.
-2. The majority of the branches with smaller collections are located on the West side of Louisville; however, there are more library branches centered there. The library branch that likely serves the largest area with the smallest collection is either Fairdale or Middletown. Please note, however, that these findings are based on collection size and geographic proximity and do not account for population density.
-3. The Main, Northeast, and South Central branches have the highest concentration of children's books. The Northeast branch has the highest diversity of genres among those books.
-4. The South Central, Southwest, Northeast, Shawnee, and Main branches have the highest concentration of teen books with South Central and Southwest having the highest diversity of genres.
-5. The Main branch has the highest concentration of adult books. Within this, the Main branch also has the highest amount of government documents and Kentucky history books showcasing its use as an archive.
-6. The adult non-fiction genre has a higher count than fiction.
-
 ## Data Sources
 
-#### Louisville Free Public Library Inventory Data:
+### Louisville Free Public Library Inventory Data:
 Source: https://louisville-metro-opendata-lojic.hub.arcgis.com/datasets/LOJIC::louisville-metro-ky-library-collection-inventory-/explore
 
-Description: This is a CSV file of LFPL's collection inventory that is updated regularly. It includes titles, authors, ISBNs, publication years, and price of items in a variety of collections and locations.
+Description: This is a CSV file of LFPL's collection inventory that is updated regularly. Fields used are Title, ItemType, ItemCollection, ItemLocation, and ItemPrice.
 
 Author: Louisville Free Public Library
 
-#### Jefferson County, KY Zip Code Data:
-Source: https://www.census.gov/cgi-bin/geo/shapefiles/index.php?year=2020&layergroup=ZIP%20Code%20Tabulation%20Areas
+### OSS Households Demographics
+Source: https://data.louisvilleky.gov/datasets/LOJIC::oss-households-demographics/explorehttps://data.louisvilleky.gov/datasets/LOJIC::oss-households-demographics/explore
 
-Description: These are shapefiles of the US ZIP Code Tabulation Areas based on the most recent data from 2020. This data was filtered to only the zip codes of the LFPL branches.
+Description: This is a CSV file containing the demographics of households that applied for services through the Office of Social Services in Jefferson County, KY. Fields used are Date_Added, Household_Type, Household_Size, Annual_Income, and Zip_Code.
 
-Author: US Census Bureau, Geography Division
+Author: Louisville Metro Open Data
+
+### Louisville KY Free Public Libraries
+Source: https://data.louisvilleky.gov/datasets/LOJIC::louisville-ky-free-public-libraries-1/about
+
+Description: This includes CSV and SHP files regarding the geographic locations of LFPL branches. Fields used are LFPL_NAME, LFPL_LOC, LATITUDE, LONGITUDE, X, and Y.
+
+Author: Louisville Metro Open Data
+
+### Jefferson County, KY Zip Codes:
+Source: https://data.louisvilleky.gov/datasets/LOJIC::jefferson-county-ky-zip-codes/about
+
+Description: This includes CSV and SHP files regarding the zip code boundaries of Jefferson County, KY. Fields used are Zipcodes, SHAPEAREA, and SHAPELEN.
+
+Author: Louisville Metro Open Data
 
 ## Author
 

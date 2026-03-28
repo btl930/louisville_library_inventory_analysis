@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### 3. Rebuild Database
 ```
 sqlite3 database.db < schema.sql
-python load_data.py
+python load_data.py 
 ```
 
 ### 4. Run the Project

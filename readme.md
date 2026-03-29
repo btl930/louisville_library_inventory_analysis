@@ -79,22 +79,17 @@ jupyter notebook
 
 ## Analysis
 
-Louisville is not unique in that there are those in the community needing extra support and resources. The Office of Social Services can provide many resources to those who apply, but it also helpful to evaluate other ways one get much needed resources.
+Louisville is not unique in that there are those in the community needing extra support and resources. The Office of Social Services can provide many resources to those who apply, but it also helpful to evaluate other ways one can get much needed resources. One's local library can be a major resource in a fast-moving and expensive society. Several LFPL branches-including Shawnee, Portland, and Shively-serve communities with the highest amount of OSS Households. Below are conclusions found from analyzing data regarding the LFPL and OSS Household Demographics:
 
-One's local library can be a major resource in a fast-moving and expensive society. Several LFPL branches-including Shawnee, Portland, and Shively-serve communities with the highest amount of OSS Households.
+- The LFPL branch distribution correlates well to zipcodes holding OSS Households. 
+- While many of the LFPL branches serving the highest concentration of OSS Households have smaller collections, the Main branch with the largest collection supports the area as well. (Note: the Main branch is currently closed to renovations)
+- The majority of the collection is housed at the Main branch, which makes sense as it is the oldest branch, houses the majority of electronic items, and serves a more archival role than the other branches.
+- The Northeast, South Central, and Southwest branches have the largest collections (excluding Main). The Northeast and Southwest branches serve larger geographic regions with a smaller concentration of library branches. South Central has a bit more library branches in its area (with a new Fern Creek branch opening in 2026) but still serves a large geographic region.
+- OSS Households in the Southwest portion of Jefferson County may have more resources at the South Central and Southwest branches, which hold large collections of adult, teen, and children's books.
+- OSS Households in the Northwest portion of Jefferson County may have more resources at the Iroquois branch for adult books, the Shawnee branch for teen books, and either Iroquois or Shawnee for children's books. In addition, the Main branch holds large collections for adult, teen, and children's books.
+- While requiring access to the internet, the Ebooks and other electronic options could be a helpful resource to OSS Household.
+- Please note, that these findings are based on collection size and geographic proximity and do not account for population density.
 
-The majority of the branches with smaller collections are located on the West side of Louisville; however, there are more library branches centered there. The library branch that likely serves the largest area with the smallest collection is either Fairdale or Middletown. Please note, however, that these findings are based on collection size and geographic proximity and do not account for population density.
-
-The majority of the collection is housed at the Main branch, which makes sense as it is the oldest branch, houses the majority of electronic items, and serves a more archival role than the other branches.
-
-The Main branch has the highest concentration of adult books. Within this, the Main branch also has the highest amount of government documents and Kentucky history books showcasing its use as an archive.
-
-The Main, Northeast, and South Central branches have the highest concentration of children's books. The Northeast branch has the highest diversity of genres among those books.
-
-The South Central, Southwest, Northeast, Shawnee, and Main branches have the highest concentration of teen books with South Central and Southwest having the highest diversity of genres.
-
-A resource that can be extremely helpful to anyone in the community is electronic resources.
- 
 ## Continuing Questions
 
 1. Is there a dataframe with LFPL's circulation data? Is there an API available to get the most current information to see how each branch's collection is being used?

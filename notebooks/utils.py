@@ -1,5 +1,7 @@
 def csv_to_sql (title, path, connection, pd):
     df = pd.read_csv(path)
+    if 'zipcode' in df.columns:
+        df['zipcode'] = df['zipcode'].astype(str)
     df.to_sql(title, connection, if_exists='replace', index=False)
     return df
 

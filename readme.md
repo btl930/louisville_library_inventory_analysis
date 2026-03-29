@@ -81,43 +81,19 @@ jupyter notebook
 
 Louisville is not unique in that there are those in the community needing extra support and resources. The Office of Social Services can provide many resources to those who apply, but it also helpful to evaluate other ways one get much needed resources.
 
-![Choropleth map of OSS Households in Jefferson County, KY](./plots/OSSHouseholdsMap.png)
-
 One's local library can be a major resource in a fast-moving and expensive society. Several LFPL branches-including Shawnee, Portland, and Shively-serve communities with the highest amount of OSS Households.
-
-![Pin map of OSS Households Per LFPL Branch](./plots/OSSHouseholdsPerBranchMap.png)
-
-
-
-![Pin map of the Annual Income of OSS Households per LFPL Branch](./plots/OSSAnnualIncomePerBranchMap.png)
 
 The majority of the branches with smaller collections are located on the West side of Louisville; however, there are more library branches centered there. The library branch that likely serves the largest area with the smallest collection is either Fairdale or Middletown. Please note, however, that these findings are based on collection size and geographic proximity and do not account for population density.
 
-![Pin Map of Total Books at Each LFPL Branch](./plots/TotalBooksPinMap.png)
-
-![Bar Graph of Total Books at Each LFPL Branch](./plots/TotalBooksAtEachBranchBar.png)
-
 The majority of the collection is housed at the Main branch, which makes sense as it is the oldest branch, houses the majority of electronic items, and serves a more archival role than the other branches.
-
-![Bar Graph of Total Items at Each LFPL Branch](./plots/TotalItemAtEachBranchBar.png)
-
-![Bar Graph of Total Items at Each LFPL Branch Except Main](./plots/TotalItemAtEachBranchExceptMainBar.png)
 
 The Main branch has the highest concentration of adult books. Within this, the Main branch also has the highest amount of government documents and Kentucky history books showcasing its use as an archive.
 
-![Adult's Collection Heat Map](./plots/AdultsCollectionHeatMap.png)
-
 The Main, Northeast, and South Central branches have the highest concentration of children's books. The Northeast branch has the highest diversity of genres among those books.
-
-![Children's Collection Heat Map](./plots/ChildrensCollectionHeatMap.png)
 
 The South Central, Southwest, Northeast, Shawnee, and Main branches have the highest concentration of teen books with South Central and Southwest having the highest diversity of genres.
 
-![Teen's Collection Heat Map](./plots/TeensCollectionHeatMap.png)
-
 A resource that can be extremely helpful to anyone in the community is electronic resources.
-
-![Ebook Pie Chart](./plots/BooksvsEbooksPieChart.png)
  
 ## Continuing Questions
 

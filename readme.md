@@ -4,7 +4,7 @@ This project analyzes the distribution of the Louisville Free Public Library inv
 
 ## How to Use
 
-### 1. Clone the Repository and Handle Large File Downloads:
+### 1. Clone the Repository and Set Up Git LFS:
 #### Git LFS setup (if not installed):
 Download and install Git LFS: https://git-lfs.github.com
 &
@@ -28,7 +28,7 @@ cd louisville_library_inventory_analysis
 
 ```
 python -m venv venv
-./venv/Scripts/activate
+.\venv\Scripts\activate
 ```
 
 #### macOS/Linux
@@ -58,17 +58,20 @@ python load_data.py
 
 ### 4. Run the Project
 
-Run the project on VS Code (make sure Jupyter extension is installed):
+##### Option A: VS Code (Recommended)
+Make sure Jupyter extension is installed:
 
 ```
 code .
 ```
 
-or on a Jupyter Notebook:
+##### Option B: Jupyter Notebook:
 
 ```
 jupyter notebook
 ```
+
+##### Run LFPL_ANALYSIS notebook
 
 
 ## Objectives

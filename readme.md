@@ -50,28 +50,25 @@ deactivate
 pip install -r requirements.txt
 ```
 
-### 3. Rebuild Database
-```
-sqlite3 database.db < schema.sql
-python load_data.py 
-```
+### 3. Run the Project
 
-### 4. Run the Project
-
-##### Option A: VS Code (Recommended)
-Make sure Jupyter extension is installed:
+#### Option A: VS Code (Recommended)
+Make sure [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) is installed:
 
 ```
 code .
 ```
 
-##### Option B: Jupyter Notebook:
+#### Option B: Jupyter Notebook:
 
 ```
 jupyter notebook
 ```
 
-##### Run LFPL_ANALYSIS notebook
+1. Run database notebook first to build SQLite database
+2. Run LFPL_ANALYSIS notebook
+    
+    _Other notebooks are supplemental and were used for building the SQLite database._ 
 
 
 ## Objectives
